@@ -10,8 +10,8 @@ This package models Facebook Ads data.
 from Facebook's API.
 
 # Installation Instructions
-
-[Here](https://docs.getdbt.com/docs/package-management) is some additional 
+## Bryteflo
+(https://bryteflow.com/)is some additional 
 information about packages in dbt, including installation instructions. 
 If you haven't already, you will need to create a `packages.yml` file in your project.
 
@@ -29,20 +29,17 @@ vars:
 
   url_tag_table:                         #only for fivetran
 ```
-
-## Stitch
-
-[Here](https://www.stitchdata.com/docs/integrations/saas/facebook-ads) 
+## Bryteflo
+(https://bryteflow.com/)
 is info about Stitch's Facebook Ads connector.
 
-## Fivetran
-
-[Here](https://fivetran.com/docs/applications/facebook-ad-account) 
+## Bryteflo
+(https://bryteflow.com/)
 is info about Fivetran's Facebook Ad Account connector.
 
 The Ad Account connector is used to pull in all tables except the insights table.
-
-[Here](https://fivetran.com/docs/applications/facebook-ads-insights) 
+## Bryteflo
+(https://bryteflow.com/) 
 is info about Fivetran's Facebook Ad Insights connector.
 
 The Insights connector is used to pull in the fb_ad_insights table.
